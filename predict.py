@@ -16,7 +16,7 @@ class Predictor(cog.Predictor):
         """Load models"""
 
         model_dir_default = './model/sf1_tm1'
-        model_name_default = 'sf1_tm1.ckpt'
+        model_name_default = 'checkpoint'
         data_dir_default = './data/evaluation_all/SF1'
         conversion_direction_default = 'A2B'
         output_dir_default = './converted_voices'
