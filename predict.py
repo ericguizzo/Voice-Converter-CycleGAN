@@ -23,7 +23,7 @@ class Predictor(cog.Predictor):
 
 
         model_dir = './models/sf1_tf2'
-        model_name = 'sf1_tf2.ckpt.index'
+        model_name = 'sf1_tf2.ckpt.meta'
         #data_dir = argv.data_dir
         conversion_direction = 'A2B'
         #output_dir = argv.output_dir
