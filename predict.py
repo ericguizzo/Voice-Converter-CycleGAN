@@ -15,14 +15,14 @@ class Predictor(cog.Predictor):
     def setup(self):
         """Load models"""
 
-        model_dir_default = './models/sf1_tm1'
+        model_dir_default = './models/sf1_tf2'
         model_name_default = 'checkpoint'
         data_dir_default = './data/evaluation_all/SF1'
         conversion_direction_default = 'A2B'
         output_dir_default = './converted_voices'
 
 
-        model_dir = './models/sf1_tm1'
+        model_dir = './models/sf1_tf2'
         model_name = 'checkpoint'
         #data_dir = argv.data_dir
         conversion_direction = 'A2B'
