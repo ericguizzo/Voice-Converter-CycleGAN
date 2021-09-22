@@ -22,8 +22,8 @@ class Predictor(cog.Predictor):
         output_dir_default = './converted_voices'
 
 
-        model_dir = './model/sf1_tm1'
-        model_name = 'sf1_tm1.ckpt'
+        model_dir = './models/sf1_tm1'
+        model_name = 'checkpoint'
         #data_dir = argv.data_dir
         conversion_direction = 'A2B'
         #output_dir = argv.output_dir
