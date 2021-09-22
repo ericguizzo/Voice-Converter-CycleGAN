@@ -15,7 +15,7 @@ class Predictor(cog.Predictor):
     def setup(self):
         """Load models"""
 
-        model_dir_default = './model/sf1_tm1'
+        model_dir_default = './models/sf1_tm1'
         model_name_default = 'checkpoint'
         data_dir_default = './data/evaluation_all/SF1'
         conversion_direction_default = 'A2B'
